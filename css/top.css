@@ -1,0 +1,47 @@
+.circle-square{
+    display: inline-block;
+    position:relative;
+    width:200px;
+    height:200px;
+    overflow:hidden;
+    border-radius:50%;
+}
+.circle-square img{
+    width: auto;
+    height: 100%;
+    margin-left: -50%;
+}
+
+
+.parallax-setting h2{
+    font-size: 45px;
+    font-weight:400;
+}
+
+.parallax-setting a{
+    background: #00bcd4;
+    padding: 14px 35px;
+    transition: all 0.3s ease-in;
+}
+
+.parallax-setting a:hover{
+    border: 2px solid #00bcd4;
+    text-decoration: none;
+    background: transparent;
+}
+
+.flipster-carouse{
+    display: none;
+    color: #333;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.flip-item{
+    width: 420px;
+}
+/*background of the border*/
+.flip-item .item-inner{
+    padding: 2rem;
+    border: 1px solid #efefef;
+    background: white;
+}
